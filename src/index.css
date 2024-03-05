@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.flash {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.flash div {
+  border: 1px solid white;
+  background-color: aquamarine;
+  display: flex;
+  aspect-ratio: 2 / 1;
+  border-radius: 7px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+div.selected {
+  background-color: brown;
+  color: whitesmoke;
+  border: 1px solid brown;
+  font-weight: bold;
+}
